@@ -63,16 +63,16 @@ A comprehensive system designed to automate and manage hospital operations inclu
 
 ## 👤 Sample Credentials
 - Admin
-   Email: admin@hospital.com
-   Password: admin123
+   - Email: admin@hospital.com
+   - Password: admin123
 
 - Doctor
-   Email: doctor@hospital.com
-   Password: doctor123
+   - Email: doctor@hospital.com
+   - Password: doctor123
 
 - Receptionist
-   Email: reception@hospital.com
-   Password: reception123
+   - Email: reception@hospital.com
+   - Password: reception123
 
 ## 📄 License
 MIT License (or your preferred license)
