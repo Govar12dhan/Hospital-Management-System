@@ -18,7 +18,7 @@ A comprehensive system designed to automate and manage hospital operations inclu
 
 - Role-based access control (Admin, Doctor, Nurse, Receptionist)
 
--Reports generation (daily, monthly, yearly)
+- Reports generation (daily, monthly, yearly)
 
 ## 🛠 Tech Stack
 - Frontend: HTML, CSS, JavaScript, React (optional)
@@ -33,52 +33,46 @@ A comprehensive system designed to automate and manage hospital operations inclu
 
 ## 🔧 Installation
 ```bash
-git clone https://github.com/yourusername/hospital-management-system.git
-cd hospital-management-system
-npm install  # or pip install -r requirements.txt
-Set environment variables:
+   git clone https://github.com/yourusername/hospital-management-system.git
+   cd hospital-management-system
+   npm install  # or pip install -r requirements.txt
+```
+# Set environment variables:
+```bash
+   DB_URL=your_database_url
+   JWT_SECRET=your_jwt_secret
+```
+# Run the server:
+```bash
+   npm start
+   # or
+   python manage.py runserver
+```
+## 🗂 Database Tables
+- patients — patient info and medical history
 
-ini
-Copy
-Edit
-DB_URL=your_database_url
-JWT_SECRET=your_jwt_secret
-Run the server:
+- doctors — doctor profiles and specialties
 
-bash
-Copy
-Edit
-npm start
-# or
-python manage.py runserver
-🗂 Database Tables
-patients — patient info and medical history
+- appointments — booking and schedules
 
-doctors — doctor profiles and specialties
+- staff — nurses, receptionists, and admin users
 
-appointments — booking and schedules
+- billing — payment records and invoices
 
-staff — nurses, receptionists, and admin users
+- pharmacy — medicine stock and dispensing records
 
-billing — payment records and invoices
+## 👤 Sample Credentials
+- Admin
+   Email: admin@hospital.com
+   Password: admin123
 
-pharmacy — medicine stock and dispensing records
+- Doctor
+   Email: doctor@hospital.com
+   Password: doctor123
 
-👤 Sample Credentials
-Admin
-Email: admin@hospital.com
-Password: admin123
+- Receptionist
+   Email: reception@hospital.com
+   Password: reception123
 
-Doctor
-Email: doctor@hospital.com
-Password: doctor123
-
-Receptionist
-Email: reception@hospital.com
-Password: reception123
-
-📸 Screenshots
-(Add screenshots of dashboard, patient registration, appointment booking, etc.)
-
-📄 License
+## 📄 License
 MIT License (or your preferred license)
